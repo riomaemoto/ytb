@@ -53,10 +53,27 @@ header {
   display: none;
 }
 
+.hero {
+  background-image: url(./img/hero.avif);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.main_title {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+span {
+  color: aqua;
+}
 
 @media (max-width: 580px) {
-
   .nav_list {
     display: none;
   }
@@ -84,7 +101,6 @@ header {
     cursor: pointer;
   }
 
-
   .line1 {
     width: 30px;
     height: 3px;
@@ -108,7 +124,6 @@ header {
     margin-bottom: 0;
   }
 
-
   .line1.open {
     transform: rotate(-45deg) translate(-10px, 8px);
     transition: 0.5s;
@@ -123,4 +138,9 @@ header {
     transition: 0.5s;
   }
 
+  .main_title {
+    font-size: 45px;
+    top: 50%;
+    left: 50%;
+  }
 }
