@@ -13,9 +13,7 @@ li {
   list-style: none;
 }
 
-/*ーーーーーーーーーーーーーーーーーーーー default ーーーーーーーーーーーーーーーーー*/
-
-/* ----------------------- header---------------------- */
+/*ーーーーーーーーーーーーーーーーーーーー 基本設定 ーーーーーーーーーーーーーーーーー*/
 
 :root {
   --headerColor: white;
@@ -24,23 +22,22 @@ li {
 header {
   width: 100%;
   background-color: rgb(0, 0, 0);
-  padding: 30px 10px;
 }
 
 .wrap {
   max-width: 1200px;
+  height: 80px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
   align-items: center;
-  overflow: hidden;
 }
 
 .logo {
   color: var(--headerColor);
   cursor: pointer;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .nav_list {
@@ -56,30 +53,10 @@ header {
   display: none;
 }
 
-/* ----------------------- header---------------------- */
 
-/* ----------------------- Hero---------------------- */
-.hero {
-  background-image: url(./img/camp.avif);
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.main_title {
-  padding: 0 30px;
-  font-size: 60px;
-  position: absolute;
-  top: 40%;
-  left: 20%;
-  color: var(--headerColor);
-}
-
-span {
-  color: aqua;
-}
 
 @media (max-width: 580px) {
+
   .nav_list {
     display: none;
   }
@@ -107,6 +84,7 @@ span {
     cursor: pointer;
   }
 
+
   .line1 {
     width: 30px;
     height: 3px;
@@ -130,6 +108,7 @@ span {
     margin-bottom: 0;
   }
 
+
   .line1.open {
     transform: rotate(-45deg) translate(-10px, 8px);
     transition: 0.5s;
@@ -144,7 +123,4 @@ span {
     transition: 0.5s;
   }
 
-  .main_title {
-    font-size: 40px;
-  }
 }
