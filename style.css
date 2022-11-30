@@ -54,7 +54,15 @@ header {
 }
 
 .hero {
-  background-image: url(./img/hero.avif);
+  background-image: linear-gradient(
+      145deg,
+      rgba(255, 0, 0, 0.21),
+      rgba(255, 166, 0, 0.148),
+      rgba(255, 255, 0, 0.193),
+      rgba(0, 128, 0, 0.218),
+      rgba(0, 0, 255, 0.155)
+    ),
+    url(./img/hero.avif);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
