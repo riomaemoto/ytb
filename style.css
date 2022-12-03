@@ -81,6 +81,56 @@ span {
   color: aqua;
 }
 
+/*ーーーーーーーーーーーーーーーーーーーー  photo ーーーーーーーーーーーーーーーーー*/
+
+main {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+  align-items: center;
+}
+
+h2 {
+  margin-top: 100px;
+  padding-block: 50px;
+  text-align: center;
+  text-decoration: underline teal 3.5px;
+  font-size: 34px;
+}
+
+.img_box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.picture_box {
+  margin: 5px 5px;
+  border: 1px solid #000;
+}
+
+.pictures {
+  object-fit: cover;
+  width: 300px;
+  height: 100%;
+}
+
+.profile_picture {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.about_box {
+  text-align: center;
+}
+
+.name {
+  padding: 8px;
+  font-size: 24px;
+}
+
 @media (max-width: 580px) {
   .nav_list {
     display: none;
@@ -150,5 +200,8 @@ span {
     font-size: 45px;
     top: 50%;
     left: 50%;
+  }
+
+  .img_box {
   }
 }
