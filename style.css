@@ -81,7 +81,7 @@ span {
   color: aqua;
 }
 
-/*ーーーーーーーーーーーーーーーーーーーー  photo ーーーーーーーーーーーーーーーーー*/
+/*ーーーーーーーーーーーーーーーーーーーー  main section ーーーーーーーーーーーーーーーーー*/
 
 main {
   max-width: 1200px;
@@ -105,11 +105,11 @@ h2 {
 }
 
 .picture_box {
-  margin: 5px 5px;
+  margin: 5px;
   border: 1px solid #000;
 }
 
-.pictures {
+.picture {
   object-fit: cover;
   width: 300px;
   height: 100%;
@@ -194,14 +194,5 @@ h2 {
   .line3.open {
     transform: rotate(45deg) translate(-1px, 1px);
     transition: 0.5s;
-  }
-
-  .main_title {
-    font-size: 45px;
-    top: 50%;
-    left: 50%;
-  }
-
-  .img_box {
   }
 }
