@@ -134,7 +134,13 @@ h2 {
 /* ----------------------------------footer ---------------------------------- */
 footer {
   margin-top: 100px;
+  padding-bottom: 40px;
   background-color: rgb(0, 0, 0);
+}
+
+.footer_title {
+  padding: 30px;
+  color: white;
 }
 
 .contact_box {
@@ -144,6 +150,7 @@ footer {
   align-items: center;
   height: 100%;
   padding: 30px;
+  padding-top: 0;
 }
 
 .phone_icon {
@@ -159,6 +166,22 @@ footer {
 .twitter {
   font-size: 35px;
   color: white;
+}
+.tiktok {
+  font-size: 35px;
+  color: white;
+}
+.youtube {
+  font-size: 35px;
+  color: white;
+}
+
+.footer_line {
+  height: 1px;
+  width: 95%;
+  text-align: center;
+  background-color: #fff;
+  margin: 0 auto;
 }
 @media (max-width: 580px) {
   .nav_list {
