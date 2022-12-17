@@ -134,8 +134,8 @@ h2 {
 /* ----------------------------------footer ---------------------------------- */
 footer {
   margin-top: 100px;
+  background-color: #000;
   padding-bottom: 40px;
-  background-color: rgb(0, 0, 0);
 }
 
 .footer_title {
@@ -147,42 +147,22 @@ footer {
   display: flex;
   gap: 60px;
   justify-content: center;
-  align-items: center;
   height: 100%;
   padding: 30px;
-  padding-top: 0;
 }
 
-.phone_icon {
+.icon {
+  color: white;
   font-size: 30px;
-  color: white;
-}
-
-.ig {
-  font-size: 35px;
-  color: white;
-}
-
-.twitter {
-  font-size: 35px;
-  color: white;
-}
-.tiktok {
-  font-size: 35px;
-  color: white;
-}
-.youtube {
-  font-size: 35px;
-  color: white;
 }
 
 .footer_line {
   height: 1px;
   width: 95%;
-  text-align: center;
-  background-color: #fff;
   margin: 0 auto;
+  background-color: white;
 }
+
 @media (max-width: 580px) {
   .nav_list {
     display: none;
@@ -200,6 +180,7 @@ footer {
     text-align: center;
     justify-content: flex-start;
     padding-top: 80px;
+    z-index: 2;
   }
 
   .nav_list li {
@@ -249,9 +230,13 @@ footer {
   }
 }
 
-@media (max-width: 280px) {
-  .footer_fz {
-    font-size: 20px;
+@media (max-width: 420px) {
+  .contact_box {
+    gap: 30px;
+  }
+
+  .icon {
+    font-size: 25px;
   }
 
   .picture {
