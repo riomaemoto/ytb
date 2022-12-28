@@ -14,7 +14,7 @@ $(function () {
 
   setTimeout(function () {
     $(".main_title").fadeIn(2000);
-  });
+  }, 500);
 
   if ($(".animation").length) {
     scrollAnimation();
